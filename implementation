@@ -1,8 +1,13 @@
 # way to go
 
-* access-control on hosting level (e.g. gitlab)
+* access-control on hosting level (e.g. gitlab).
+[git repository access control](https://wincent.com/wiki/Git_repository_access_control)
 
 # spit-balling
 
 this is basically dedicated to stream-of-consciousness
 * message is empty file with random UID as name, use commit message
+* master branch role: complete log of all conversations / public message board /
+private monolog?
+* the structure of conversations should reflect the ability to import/reference
+other repositories/branches

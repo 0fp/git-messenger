@@ -2,18 +2,22 @@
 
 * non-linear,multi-tennant communication
 * groud-defined conversations with access control
+* small number of dependencies: git, sh, coreutils
 
 # essentials
 
 * basic chat functionality
 * multiple conversations
 * mutable history
+* "contact list"
 
 # special features
 
 * self-destructing messages
 * file-transfer support
 * per conversation read/write access control
+* backend should be easy-to-use, even without any frontend -- i.e. you should be
+able to use (most of) the messenger with simple git commands
 
 # maybes
 

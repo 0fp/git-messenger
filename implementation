@@ -3,6 +3,31 @@
 * access-control on hosting level (e.g. gitlab).
 [git repository access control](https://wincent.com/wiki/Git_repository_access_control)
 
+# conversations
+
+conversations are branches.
+each conversation may have its own remote, but need not share a parent; i.e. not
+all local branches 'branch' from master.
+this has the natural implications:
+ * conversations can be shared
+ * support for multiple conversation repositories at once
+ * access control is relayed to repository provider/owner
+
+when a new message is written, a new branch (self-conversation) is created under
+the parent message which the new message refers to.
+synchronising conversations constitutes a merge.
+
+## message ordering
+there are (atm) three sensible merging strategies of conversations.
+the default message ordering depends on the conversation mode: synchronous or
+asynchronous.
+
+### global time-ordered
+
+### local time-ordered
+
+### topological time-ordered
+
 # spit-balling
 
 this is basically dedicated to stream-of-consciousness

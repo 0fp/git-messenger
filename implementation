@@ -24,6 +24,9 @@ asynchronous.
 
 ### global time-ordered
 
+messages are merged based on their commit date.
+new messages and old messages are interspersed.
+
 ### local time-ordered
 
 ### topological time-ordered

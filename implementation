@@ -27,6 +27,12 @@ asynchronous.
 messages are merged based on their commit date.
 new messages and old messages are interspersed.
 
+     ----G
+    /
+A---B---C---D   => A--B--E--C--G--D--F
+     \
+      E-------F
+
 ### local time-ordered
 
 ### topological time-ordered
